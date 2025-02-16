@@ -1,21 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Oleo+Script&family=Poppins&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #fff;
-  --foreground: #171717;
+.tab-items span {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+  color: #224c61;
+}
+.hero-text {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 100%;
+  /* or 72px */
+
+  color: #224c61;
+}
+.hero-desc {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 108%;
+  /* or 17px */
+  text-transform: uppercase;
+
+  color: #224c61;
+}
+.hero-abt {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 108%;
+  /* or 19px */
+
+  color: #224c61;
+}
+.image-list img {
+  border-radius: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.abt-title {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #224c61;
+}
+.abt-desc {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #224c61;
+}
+
+.abt-subHead {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.4588px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #224c61;
+}
+.image-title {
+  /* Creatives */
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #224c61;
+}
+.image-desc {
+  font-family: "Lovelace Text Trial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #224c61;
+}
+
+.ben-title {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #224c61;
+}
+.ben-desc {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #224c61;
+}
+.ben {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #224c61;
+}
+.onboard-tips span {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #224c61;
+}
+.view-all {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.2756px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #224c61;
+}
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .hero-text {
+    font-size: 24px;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  .abt-title {
+    font-size: 20px;
+  }
+  .abt-desc {
+    font-size: 10px;
+  }
+  .abt-subHead {
+    font-size: 14px;
+  }
+  .ben {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+    text-align: center;
+    margin-bottom: 40px;
+    color: #224c61;
+  }
 }
